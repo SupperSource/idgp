@@ -35,6 +35,24 @@ idgen(4);
 */
 ```
 
+## In HTML
+
+```sh
+$ npm init -y
+
+# initialize npm in the directory
+
+$ npm i idgp
+
+# To install idgp
+```
+
+Then in html provide the following script tags
+
+```HTML
+<script src="./node_modules/idgp/idgen.js"></script>
+```
+
 ## Open source
 
 we are awaiting for your pull requests. If you face any issue, run `npm test`, which will give to the test report, or report issue on github.
